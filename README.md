@@ -1,3 +1,4 @@
-1. ''Convergence rate with different Nystrom size'' uses part of the cifar-10 dataset (30,000 data points) to compare the convergence rate with different Nystrom size s.
-2. ''Convergence rate with different q (AxlePro)'' compares the convergence rate with different precondition level for AxlePro using 3000 synthetic data points.
-3. ''Convergence rate with different q (LM-AxlePro)'' compares the convergence rate with different precondition level for LM-AxlePro using 3000 synthetic data points.
+1. "Convergence rate with different Nystrom size" uses part of the cifar-10 dataset (30,000 data points) to compare the convergence rate with different Nystrom size s.
+2. "Convergence rate with different q (AxlePro)" compares the convergence rates at different precondition levels for AxlePro, using 3000 synthetic data points, whereas 'Compare_q_AxlePro_cifar' does so using the entire CIFAR-10 training set.
+3. "Convergence rate with different q (LM-AxlePro)" compares the convergence rates at different precondition levels for LM-AxlePro, using 3000 synthetic data points, whereas 'Compare_q_LM_cifar' does so using the entire CIFAR-10 training set.
+4. "‘Compare_mu_AxlePro_cifar’ and ‘Compare_mu_LM_cifar’ each compare the impact of the tuning factor on the smallest eigenvalue for AxlePro and LM-AxlePro, respectively."
